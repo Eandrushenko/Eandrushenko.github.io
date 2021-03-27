@@ -123,3 +123,25 @@ body
 	transition: max-height 0.2s ease-out;
 	background-color: #f1f1f1;
 }
+
+.contentbutton
+{
+	background-color: #FF0000; /* Blue background */
+	border: none; /* Remove borders */
+	color: white; /* White text */
+	padding: 12px 16px; /* Some padding */
+	font-size: 16px; /* Set a font size */
+	cursor: pointer; /* Mouse pointer on hover */
+	width: 40%;
+}
+
+.contentbutton:hover 
+{
+	background-color: #8C001A;
+}
+
+.buttoncontainer
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
