@@ -30,6 +30,7 @@ body
 	font-size: 25px;
 	color: #818181;
 	display: block;
+	background-color: transparent;
 }
 
 .sidebar a:hover 
@@ -81,6 +82,11 @@ body
 {
 	background-color: white;
 	padding: 10px;
+}
+
+.content h3
+{
+	text-align: center;
 }
 
 .collapsible 

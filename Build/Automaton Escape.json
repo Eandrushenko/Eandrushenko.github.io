@@ -1,0 +1,13 @@
+{
+"companyName": "X5Z5",
+"productName": "Automaton Escape",
+"dataUrl": "Automaton Escape.data.unityweb",
+"wasmCodeUrl": "Automaton Escape.wasm.code.unityweb",
+"wasmFrameworkUrl": "Automaton Escape.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
