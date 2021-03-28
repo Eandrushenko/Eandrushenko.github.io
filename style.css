@@ -53,6 +53,7 @@ body
 {
 	text-align: center;
 	font-size: 50px;
+	margin-bottom: -10px;
 }
 
 * 
@@ -79,21 +80,15 @@ body
 /* Create two equal columns that floats next to each other */
 .column 
 {
-	float: left;
-	width: 50%;
-}
-
-/* Clear floats after rows */ 
-.row:after 
-{
-	content: "";
-	display: table;
-	clear: both;
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
 }
 
 /* Content */
 .content 
 {
+	margin-top: 15px;
 	background-color: white;
 	padding: 10px;
 }
