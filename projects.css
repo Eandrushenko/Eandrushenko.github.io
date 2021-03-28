@@ -1,5 +1,50 @@
 body
 {
-	background-color: #FFFF00;
+	background-color: #E5E4E2;
+}
+
+.sidebar 
+{
+	height: 100%;
+	width: 400px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #8C001A;
+	overflow-x: hidden;
+	padding-top: 20px;
+	color: #FFFFFF;
+}
+
+.sidebar h1 
+{
 	text-align: center;
+}
+
+.sidebar h4
+{
+	text-align: center;
+	line-height: 5px;
+}
+
+
+.sidebar a 
+{
+	padding: 25px 25px 25px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	color: #818181;
+	display: block;
+}
+
+.sidebar a:hover 
+{
+	color: #f1f1f1;
+}
+
+.main
+{
+	margin-left: 400px; /* Same as the width of the sidebar */
+	padding: 0px 10px;
 }
