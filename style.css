@@ -98,6 +98,40 @@ body
 	text-align: center;
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) 
+{
+	.column 
+	{
+		-ms-flex: 100%; /* IE10 */
+		flex: 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	.sidebar 
+	{
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	
+	.sidebar a 
+	{
+		float: left;
+	}
+	
+	div.content 
+	{
+		margin-left: 0;
+	}
+	
+	.main
+	{
+		margin-left: 0px;
+	}
+}
+
 .collapsible 
 {
 	background-color: #777;

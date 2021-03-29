@@ -48,3 +48,36 @@ body
 	margin-left: 400px; /* Same as the width of the sidebar */
 	padding: 0px 10px;
 }
+
+@media screen and (max-width: 1200px) 
+{
+	.column 
+	{
+		-ms-flex: 100%; /* IE10 */
+		flex: 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	.sidebar 
+	{
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	
+	.sidebar a 
+	{
+		float: left;
+	}
+	
+	div.content 
+	{
+		margin-left: 0;
+	}
+	
+	.main
+	{
+		margin-left: 0px;
+	}
+}
