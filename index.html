@@ -60,6 +60,12 @@
 					<button class="collapsible" onclick="changeText(this)">Read More</button>
 					<div class="more">
 						<div class="tag">Python</div> <div class="tag">C#</div> <div class="tag">PostgreSQL</div>
+						<h5>Overview:</h5>
+						<p>My buddy and I attempted this challenge as a way to learn about databases. A full description of the challenge can be found at <a href="https://www.yelp.com/dataset" target="_blank">Yelp.</a> The user of this application can type in a name and select the corresponding ID that matches a Yelp reviewer. On this page the user can see this Yelp reviewer's friends and their reviews, all of the reviwer's reviews, and you can edit the reviewer's latitude and longitude. On a different page the user can select a state, a city, and a zipcode. Doing so will generate a list of restaurants specific to that location. If the user entered in their latitude and longitude beforehand, the distance to each restaurant will be calulated and displayed. A user can also select several tags that describe types of restaurants to further specify their search query. When a restaurant is selected the user can view all their friends who reviewed that exact restaurant, all restaurant reviews, and all restaurant checkins. The user can also add that restauraunt as a favorite, or they can leave a review themselves.  </p>
+						<h5>Challenges:</h5>
+						<p>The part that we struggled with the most was moving the JSON data onto the database. With such a large amount of data we needed to write a program that would get all of our data onto the database without any corruption or missing data. </p>
+						<h5>Solution:</h5>
+						<p>Our answer to this problem was to create a python script that would put parse and insert the data into the database. We ran our script and it ended up running for 8 hours before we decided to kill it. At this point we decided to create small JSON files that were very similiar to the original large ones. This allowed us to essentially run unit tests and it helped us find our issue and adjust our python script accordingly. After that we were able to add our data into the databse in a time effective manor, which meant we could proceed with developing the rest of the application. </p>
 					</div>
 					
 				</div>
@@ -78,7 +84,13 @@
 					<button class="collapsible" onclick="changeText(this)">Read More</button>
 					<div class="more">
 						<div class="tag">Python</div>
-					</div>
+						<h5>Overview:</h5>
+						<p>The purpose of this project was to create something unorthodox in regards to the Turtle graphics module. Turtle is commonly used to draw geometrical objects, but this project attempts to create an entire OS essentially from a drawing tool. The current code has implementations for most of the basic UNIX commands such as ls, mkdir, touch, cat, cp, mv, and so on. The hope is for others to find the project interesting and have them contribute more UNIX commands, and other features until it is a working Operating System. </p>
+						<h5>Challenges:</h5>
+						<p>One of the first challenges I encountered was how to make my project interact with files on my computer. I understood how to create and write to a file, since that is one of the most fundamental concepts in programming. My problem was creating repositories.</p>
+						<h5>Solution:</h5>
+						<p>The most elegant solution that I found was to incorporate the OS module in python. This module allowed me to create a directory in one simple line of code and it also paved the way for many of my other UNIX commands that I was able to implement easily using the OS module. </p>
+						</div>
 					
 				</div>
 				
@@ -97,8 +109,8 @@
 						<p>The goal of this project was to conveniently display the most important, up-to-date COVID-19 data to users. The app is split into three seperate pages. The first page shown displays COVID-19 world data. From the home page the user can click a button that takes them to the country page. This page requires the user to enter in the name of a country anywhere in the world, doing so will show the COVID-19 data for that country. I also included a folder that has the flags of most of the countries in the world, so when a user enters a country, its respective flag will appear alongside the data. The last page can also be navigated to from the home page and this is the state page. This page displays a table of all the counties within a U.S. state and shows their respective data. A user can view all the states and there is also input to find the user's location and the data will display their home state data if they are, in fact, located in a U.S. state.  </p>
 						<h5>Challenges:</h5>
 						<p>The biggest challenge of the project was finding data to display. At this point I understood the basics of mobile application development so most of the coding was not too difficult.</p>
-						<h5>Solution</h5>
-						<p>The answer to my problem was found by using an API. I initally wanted to scrape the John Hopkins University website, since they are one of the biggest data trackers of COVID-19. A simpler solution was to go on to RapidAPI.com which had ready to use API's that also used John Hopkins University data. Many of these APIs are updated frequestly which means that my application will have the latest data available pertaining to the COVID-19 pandemic.</p>
+						<h5>Solution:</h5>
+						<p>The answer to my problem was found by using an API. I initally wanted to scrape the John Hopkins University website, since they are one of the biggest data trackers of COVID-19. A simpler solution was use <a href="https://rapidapi.com/marketplace" target="_blank">RapidAPI</a> which had ready to use API's that also used John Hopkins University data. Many of these APIs are updated frequestly which means that my application will have the latest data available pertaining to the COVID-19 pandemic.</p>
 						<i>No demo available yet. Once I regain access to a MAC I will upload a demonstration video.</i>
 					</div>
 					
