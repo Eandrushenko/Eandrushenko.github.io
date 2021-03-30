@@ -166,12 +166,20 @@ body
 
 .more
 {
-	padding: 0 18px;
+	padding: 10px 18px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	background-color: #f1f1f1;
 }
+
+.more h5
+{
+	margin-bottom: -5px;
+	font-size: 20px;
+}
+
+
 
 .contentbutton
 {
@@ -193,4 +201,18 @@ body
 {
 	text-align: center;
 	padding-bottom: 10px;
+}
+
+.tag
+{
+	background-color: #ddd;
+	border: none;
+	color: black;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	border-radius: 16px;
+	vertical-align: bottom;
 }
