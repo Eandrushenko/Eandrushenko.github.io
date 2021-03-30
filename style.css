@@ -166,7 +166,7 @@ body
 
 .more
 {
-	padding: 10px 18px;
+	padding: 0px 18px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
@@ -212,7 +212,7 @@ body
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	margin: 4px 2px;
+	margin: 15px 2px;
 	border-radius: 16px;
 	vertical-align: bottom;
 }
